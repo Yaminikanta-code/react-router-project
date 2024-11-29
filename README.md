@@ -1,8 +1,14 @@
-# React + Vite
+# React Router Demonstration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project demonstrates the usage of `react-router-dom` library features like nested routes, dynamic routes, navigation using `Link` and `NavLink`, and data loading with `useLoaderData()` from the GitHub API.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+1. **Nested Routes**: Displays parent and child routes with seamless navigation.
+2. **Dynamic Routes**: Uses the `useParams()` hook to access dynamic route parameters.
+3. **Navigation**:
+   - `Link`: For standard navigation.
+   - `NavLink`: For active styling in navigation links.
+4. **Data Fetching**: Utilizes the `useLoaderData()` hook to fetch and display user details from the GitHub API.
